@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=24090_TS Pin=152C-20
+Removed Pin From Net: NetName=24090_CHG Pin=152C-21
+Added Pin To Net: NetName=24090_TS Pin=152C-5
+Added Pin To Net: NetName=24090_CHG Pin=152C-6

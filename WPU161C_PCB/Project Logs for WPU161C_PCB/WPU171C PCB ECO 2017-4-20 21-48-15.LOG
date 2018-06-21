@@ -1,0 +1,4 @@
+Added Component: Designator=SW(Switch 2P2T)
+Added Pin To Net: NetName=NetBattery_1 Pin=SW-2
+Added Pin To Net: NetName=SYSTEM LOAD Pin=SW-3
+Added Member To Class: ClassName=MCU Member=Component SW Switch

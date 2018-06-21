@@ -1,0 +1,6 @@
+[ProjectGroup]
+Version=1.0
+[Project1]
+ProjectPath=WPU161C_Lib\AirTone_Lib.LibPkg
+[Project2]
+ProjectPath=WPU161C_PCB\AirTone_PCB.PrjPcb

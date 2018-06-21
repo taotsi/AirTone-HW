@@ -1,0 +1,2 @@
+Removed Pin From Net: NetName=STM8_M25P_SCN Pin=STM8L152C6T-24
+Added Pin To Net: NetName=STM8_M25P_SCN Pin=STM8L152C6T-32

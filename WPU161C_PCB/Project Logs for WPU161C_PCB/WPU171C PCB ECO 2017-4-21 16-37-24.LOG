@@ -1,0 +1,6 @@
+Added Component: Designator=UART(Header_4x1_2.54)
+Added Pin To Net: NetName=GND Pin=UART-1
+Added Pin To Net: NetName=USART_CK Pin=UART-2
+Added Pin To Net: NetName=USART_TX Pin=UART-3
+Added Pin To Net: NetName=USART_RX Pin=UART-4
+Added Member To Class: ClassName=MCU Member=Component UART Header_4x1

@@ -1,0 +1,11 @@
+Added Component: Designator=PA2-7(HDR1X6)
+Added Pin To Net: NetName=PA2 Pin=PA2-7-1
+Added Pin To Net: NetName=PA3 Pin=PA2-7-2
+Added Pin To Net: NetName=PA4 Pin=PA2-7-3
+Added Pin To Net: NetName=PA5 Pin=PA2-7-4
+Added Pin To Net: NetName=PA6 Pin=PA2-7-5
+Added Pin To Net: NetName=PA7 Pin=PA2-7-6
+Added Member To Class: ClassName=MCU Member=Component PA2-7 Header 6
+Added Room: Name=Audio
+Added Room: Name=MCU
+Added Room: Name=RF

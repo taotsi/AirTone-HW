@@ -1,0 +1,33 @@
+Change Component Footprint: Designator=R12 Old Footprint=SMD 0402_silk New Footprint=SMD 0402
+Change Component Footprint: Designator=R13 Old Footprint=SMD 0402_silk New Footprint=SMD 0402
+Added Component: Designator=ADP222(ADP22x)
+Added Component: Designator=AN(Antenna SMA-KE)
+Added Component: Designator=K3(Button_3x4)
+Added Component: Designator=K4(Button_3x4)
+Added Pin To Net: NetName=SYSTEM LOAD Pin=ADP222-1
+Added Pin To Net: NetName=SYSTEM LOAD Pin=ADP222-2
+Added Pin To Net: NetName=GND Pin=ADP222-3
+Added Pin To Net: NetName=GND Pin=ADP222-3
+Added Pin To Net: NetName=GND Pin=ADP222-3
+Added Pin To Net: NetName=+3.3V Pin=ADP222-4
+Added Pin To Net: NetName=+3.3V Pin=ADP222-5
+Added Pin To Net: NetName=SYSTEM LOAD Pin=ADP222-6
+Added Pin To Net: NetName=+1.8V Pin=ADP222-7
+Added Pin To Net: NetName=+1.8V Pin=ADP222-8
+Added Pin To Net: NetName=NetAN_1 Pin=AN-1
+Added Pin To Net: NetName=GND Pin=AN-2
+Added Pin To Net: NetName=GND Pin=AN-2
+Added Pin To Net: NetName=GND Pin=AN-2
+Added Pin To Net: NetName=GND Pin=AN-2
+Added Pin To Net: NetName=GND Pin=K3-2
+Added Pin To Net: NetName=GND Pin=K4-2
+Added Pin To Net: NetName=STM8_KEY_3 Pin=K3-1
+Added Pin To Net: NetName=STM8_KEY_3 Pin=STM8L152C6T-47
+Added Net: Name=STM8_KEY_3
+Added Pin To Net: NetName=STM8_KEY_4 Pin=K4-1
+Added Pin To Net: NetName=STM8_KEY_4 Pin=STM8L152C6T-48
+Added Net: Name=STM8_KEY_4
+Added Member To Class: ClassName=MCU Member=Component ADP222 ADP222ACPZ-1833-R7
+Added Member To Class: ClassName=RF Member=Component AN Antenna
+Added Member To Class: ClassName=MCU Member=Component K3 Button
+Added Member To Class: ClassName=MCU Member=Component K4 Button

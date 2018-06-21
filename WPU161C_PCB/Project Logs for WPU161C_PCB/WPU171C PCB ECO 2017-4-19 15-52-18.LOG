@@ -1,0 +1,32 @@
+Added Component: Designator=Back(Button_3x4)
+Added Component: Designator=Down(Button_3x4)
+Added Component: Designator=Enter(Button_3x4)
+Added Component: Designator=K1(Button_3x4)
+Added Component: Designator=K2(Button_3x4)
+Added Component: Designator=RST(Button_3x4)
+Added Component: Designator=Up(Button_3x4)
+Added Pin To Net: NetName=STM8_KEY_BACK Pin=Back-1
+Added Pin To Net: NetName=GND Pin=Back-2
+Added Pin To Net: NetName=STM8_KEY_DOWN Pin=Down-1
+Added Pin To Net: NetName=GND Pin=Down-2
+Added Pin To Net: NetName=STM8_KEY_ENTER Pin=Enter-1
+Added Pin To Net: NetName=GND Pin=Enter-2
+Added Pin To Net: NetName=GND Pin=K1-2
+Added Pin To Net: NetName=GND Pin=K2-2
+Added Pin To Net: NetName=GND Pin=RST-1
+Added Pin To Net: NetName=STM8_RST Pin=RST-2
+Added Pin To Net: NetName=STM8_KEY_UP Pin=Up-1
+Added Pin To Net: NetName=GND Pin=Up-2
+Added Pin To Net: NetName=STM8_KEY_1 Pin=K1-1
+Added Pin To Net: NetName=STM8_KEY_1 Pin=STM8L152C6T-18
+Added Net: Name=STM8_KEY_1
+Added Pin To Net: NetName=STM8_KEY_2 Pin=K2-1
+Added Pin To Net: NetName=STM8_KEY_2 Pin=STM8L152C6T-19
+Added Net: Name=STM8_KEY_2
+Added Member To Class: ClassName=MCU Member=Component Back Button
+Added Member To Class: ClassName=MCU Member=Component Down Button
+Added Member To Class: ClassName=MCU Member=Component Enter Button
+Added Member To Class: ClassName=MCU Member=Component K1 Button
+Added Member To Class: ClassName=MCU Member=Component K2 Button
+Added Member To Class: ClassName=MCU Member=Component RST Button
+Added Member To Class: ClassName=MCU Member=Component Up Button

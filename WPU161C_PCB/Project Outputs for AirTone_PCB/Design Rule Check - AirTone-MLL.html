@@ -1,0 +1,394 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 8em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://F:\AD16\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">2017/12/5</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">14:24:23</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:01</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///E:\AirTone\PCB\WPU161C_PCB\AirTone-MLL.PcbDoc" class="file"><acronym title="E:\AirTone\PCB\WPU161C_PCB\AirTone-MLL.PcbDoc">E:\AirTone\PCB\WPU161C_PCB\AirTone-MLL.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">18</td></tr>
+</table>
+</td>
+</table><a name="ID0QNQ1IWKAUCZE4LXGK3F05CMMORGJHIONCMF32PNUB2A30HN3JNI"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID3ILK5DVV0LJI1FFHJDM5DELINEI5W0HM5A5G5MZADDQ2V2INXUD">Clearance Constraint (Gap=0.16mm) (All),(All)</a></td>
+<td class="column2">12</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDTMREHJGE2JMGOYXOAG24LOLWXIYOPMPK23H254D0HMPZN0EEZ51">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDWWE0S21E5RYJI21NOUSK0KQ5WK2HLVVYJIN1GKCIWZ51VXOPT1GC">Net Antennae (Tolerance=0mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID2VGHKK5H2SJOKFZGBLC1GORN4G0UZVSZHGH4MYM423P5MNWTLVLJ">Silk to Silk (Clearance=0mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID24X5DUS5NQFHHMIXKZODPMNIPNYWL5NPQSBGWNM2LZEKNEDLVD0K">Silk To Solder Mask (Clearance=0mm) (IsPad),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDULJ1TSPLC5THC5YROJM5BEKBLBUQVPVWAMKCFCICOPAWOUVTX4K">Minimum Solder Mask Sliver (Gap=0.01mm) (All),(All)</a></td>
+<td class="column2">4</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDAXNTHIULS1SBFUAYRVWQMJ2OUNH32YZZL2ETNBGETMKGLTWQKKUH">Hole To Hole Clearance (Gap=0.01mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDH1YQMAVE5HAKBUMBDUWKK4HWRE0D0PMI25TBTMNCDS1RQDJORKHH">Hole Size Constraint (Min=0.025mm) (Max=2.54mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDUYWWEUWMARM1EYFVLLJ2RJIMLK3UXC5DMDYYCL0GGBIA13UR1HF">Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDH5XEXDQ1XFVKCF3F2UV0ELTHJMILX4CUOWMJPUG2HGSCXW1SYAWE">Width Constraint (Min=0.1mm) (Max=0.8mm) (Preferred=0.2mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDULRONTK0EXZBGT1LI3HLMMAFGLSXLCJ13NAGMANPM0IOVMES43VG">Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDA4JS0IURMLMHLKJ4EWVANXIKEL1GHNUHBMMM1HLTIZBVBLCYPGLD">Clearance Constraint (Gap=2mm) (InPoly),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDKGJLV3EHOYPMFTPIJURA13QBUKIEZZMNBNG2BBPZJJYZP0QPOIOG">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDHM0WJFEGB0EXG0O2ZPFIDJXSSHOOOF2S42CUA4MLDZ2DCLNAF0NB">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">2</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">18</td>
+</tr>
+</table><br><a name="ID3ILK5DVV0LJI1FFHJDM5DELINEI5W0HM5A5G5MZADDQ2V2INXUD"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Clearance Constraint (Gap=0.16mm) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\AirTone\PCB\WPU161C_PCB\AirTone-MLL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3498.385mil|Location2.X=3503.584mil|Location1.Y=2490.531mil|Location2.Y=2495.73mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\AirTone\PCB\WPU161C_PCB\AirTone-MLL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3498.385mil|Location2.X=3503.584mil|Location1.Y=2490.531mil|Location2.Y=2495.73mil|Absolute=True">Clearance Constraint: (Collision &lt; 0.16mm) Between Area Fill (2.238mm,41.801mm) (2.738mm,50.274mm) on Top Layer And Pad AN-1(2.5mm,42mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\AirTone\PCB\WPU161C_PCB\AirTone-MLL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4221.191mil|Location2.X=4228.741mil|Location1.Y=1158.667mil|Location2.Y=1166.216mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\AirTone\PCB\WPU161C_PCB\AirTone-MLL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4221.191mil|Location2.X=4228.741mil|Location1.Y=1158.667mil|Location2.Y=1166.216mil|Absolute=True">Clearance Constraint: (0.154mm &lt; 0.16mm) Between Track (20.85mm,8.475mm)(21.55mm,9.175mm) on Bottom Layer And Pad STM8L152C6T-1(21.05mm,7.425mm) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\AirTone\PCB\WPU161C_PCB\AirTone-MLL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4221.191mil|Location2.X=4228.741mil|Location1.Y=1158.667mil|Location2.Y=1166.216mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\AirTone\PCB\WPU161C_PCB\AirTone-MLL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4221.191mil|Location2.X=4228.741mil|Location1.Y=1158.667mil|Location2.Y=1166.216mil|Absolute=True">Clearance Constraint: (0.154mm &lt; 0.16mm) Between Track (16.55mm,8.475mm)(20.85mm,8.475mm) on Bottom Layer And Pad STM8L152C6T-1(21.05mm,7.425mm) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\AirTone\PCB\WPU161C_PCB\AirTone-MLL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4201.934mil|Location2.X=4209.483mil|Location1.Y=1158.627mil|Location2.Y=1166.176mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\AirTone\PCB\WPU161C_PCB\AirTone-MLL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4201.934mil|Location2.X=4209.483mil|Location1.Y=1158.627mil|Location2.Y=1166.176mil|Absolute=True">Clearance Constraint: (0.15mm &lt; 0.16mm) Between Track (16.55mm,8.475mm)(20.85mm,8.475mm) on Bottom Layer And Pad STM8L152C6T-2(20.55mm,7.425mm) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\AirTone\PCB\WPU161C_PCB\AirTone-MLL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4182.249mil|Location2.X=4189.798mil|Location1.Y=1158.627mil|Location2.Y=1166.176mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\AirTone\PCB\WPU161C_PCB\AirTone-MLL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4182.249mil|Location2.X=4189.798mil|Location1.Y=1158.627mil|Location2.Y=1166.176mil|Absolute=True">Clearance Constraint: (0.15mm &lt; 0.16mm) Between Track (16.55mm,8.475mm)(20.85mm,8.475mm) on Bottom Layer And Pad STM8L152C6T-3(20.05mm,7.425mm) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\AirTone\PCB\WPU161C_PCB\AirTone-MLL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4162.564mil|Location2.X=4170.113mil|Location1.Y=1158.627mil|Location2.Y=1166.176mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\AirTone\PCB\WPU161C_PCB\AirTone-MLL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4162.564mil|Location2.X=4170.113mil|Location1.Y=1158.627mil|Location2.Y=1166.176mil|Absolute=True">Clearance Constraint: (0.15mm &lt; 0.16mm) Between Track (16.55mm,8.475mm)(20.85mm,8.475mm) on Bottom Layer And Pad STM8L152C6T-4(19.55mm,7.425mm) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\AirTone\PCB\WPU161C_PCB\AirTone-MLL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4142.879mil|Location2.X=4150.428mil|Location1.Y=1158.627mil|Location2.Y=1166.176mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\AirTone\PCB\WPU161C_PCB\AirTone-MLL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4142.879mil|Location2.X=4150.428mil|Location1.Y=1158.627mil|Location2.Y=1166.176mil|Absolute=True">Clearance Constraint: (0.15mm &lt; 0.16mm) Between Track (16.55mm,8.475mm)(20.85mm,8.475mm) on Bottom Layer And Pad STM8L152C6T-5(19.05mm,7.425mm) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\AirTone\PCB\WPU161C_PCB\AirTone-MLL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4123.194mil|Location2.X=4130.743mil|Location1.Y=1158.627mil|Location2.Y=1166.176mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\AirTone\PCB\WPU161C_PCB\AirTone-MLL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4123.194mil|Location2.X=4130.743mil|Location1.Y=1158.627mil|Location2.Y=1166.176mil|Absolute=True">Clearance Constraint: (0.15mm &lt; 0.16mm) Between Track (16.55mm,8.475mm)(20.85mm,8.475mm) on Bottom Layer And Pad STM8L152C6T-6(18.55mm,7.425mm) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\AirTone\PCB\WPU161C_PCB\AirTone-MLL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4103.509mil|Location2.X=4111.058mil|Location1.Y=1158.627mil|Location2.Y=1166.176mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\AirTone\PCB\WPU161C_PCB\AirTone-MLL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4103.509mil|Location2.X=4111.058mil|Location1.Y=1158.627mil|Location2.Y=1166.176mil|Absolute=True">Clearance Constraint: (0.15mm &lt; 0.16mm) Between Track (16.55mm,8.475mm)(20.85mm,8.475mm) on Bottom Layer And Pad STM8L152C6T-7(18.05mm,7.425mm) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\AirTone\PCB\WPU161C_PCB\AirTone-MLL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4083.824mil|Location2.X=4091.373mil|Location1.Y=1158.627mil|Location2.Y=1166.176mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\AirTone\PCB\WPU161C_PCB\AirTone-MLL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4083.824mil|Location2.X=4091.373mil|Location1.Y=1158.627mil|Location2.Y=1166.176mil|Absolute=True">Clearance Constraint: (0.15mm &lt; 0.16mm) Between Track (16.55mm,8.475mm)(20.85mm,8.475mm) on Bottom Layer And Pad STM8L152C6T-8(17.55mm,7.425mm) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\AirTone\PCB\WPU161C_PCB\AirTone-MLL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4064.139mil|Location2.X=4071.688mil|Location1.Y=1158.627mil|Location2.Y=1166.176mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\AirTone\PCB\WPU161C_PCB\AirTone-MLL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4064.139mil|Location2.X=4071.688mil|Location1.Y=1158.627mil|Location2.Y=1166.176mil|Absolute=True">Clearance Constraint: (0.15mm &lt; 0.16mm) Between Track (16.55mm,8.475mm)(20.85mm,8.475mm) on Bottom Layer And Pad STM8L152C6T-9(17.05mm,7.425mm) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\AirTone\PCB\WPU161C_PCB\AirTone-MLL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3498.385mil|Location2.X=3503.584mil|Location1.Y=2490.511mil|Location2.Y=2495.71mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\AirTone\PCB\WPU161C_PCB\AirTone-MLL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3498.385mil|Location2.X=3503.584mil|Location1.Y=2490.511mil|Location2.Y=2495.71mil|Absolute=True">Clearance Constraint: (Collision &lt; 0.16mm) Between Area Fill (2.238mm,41.801mm) (2.738mm,50.274mm) on Top Layer And Track (2.5mm,39.95mm)(2.5mm,42mm) on Top Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDULJ1TSPLC5THC5YROJM5BEKBLBUQVPVWAMKCFCICOPAWOUVTX4K"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Minimum Solder Mask Sliver (Gap=0.01mm) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\AirTone\PCB\WPU161C_PCB\AirTone-MLL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4205.871mil|Location2.X=4211.797mil|Location1.Y=1781.882mil|Location2.Y=1787.239mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\AirTone\PCB\WPU161C_PCB\AirTone-MLL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4205.871mil|Location2.X=4211.797mil|Location1.Y=1781.882mil|Location2.Y=1787.239mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.004mm &lt; 0.01mm) Between Via (20.675mm,24.3mm) from Top Layer to Bottom Layer And Via (20.175mm,23.8mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.004mm] / [Bottom Solder] Mask Sliver [0.004mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\AirTone\PCB\WPU161C_PCB\AirTone-MLL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4186.186mil|Location2.X=4190.768mil|Location1.Y=1785.595mil|Location2.Y=1790.496mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\AirTone\PCB\WPU161C_PCB\AirTone-MLL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4186.186mil|Location2.X=4190.768mil|Location1.Y=1785.595mil|Location2.Y=1790.496mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.004mm &lt; 0.01mm) Between Via (19.675mm,24.3mm) from Top Layer to Bottom Layer And Via (20.175mm,23.8mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.004mm] / [Bottom Solder] Mask Sliver [0.004mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\AirTone\PCB\WPU161C_PCB\AirTone-MLL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4205.871mil|Location2.X=4210.453mil|Location1.Y=1765.91mil|Location2.Y=1770.811mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\AirTone\PCB\WPU161C_PCB\AirTone-MLL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4205.871mil|Location2.X=4210.453mil|Location1.Y=1765.91mil|Location2.Y=1770.811mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.004mm &lt; 0.01mm) Between Via (20.675mm,23.3mm) from Top Layer to Bottom Layer And Via (20.175mm,23.8mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.004mm] / [Bottom Solder] Mask Sliver [0.004mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\AirTone\PCB\WPU161C_PCB\AirTone-MLL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4186.186mil|Location2.X=4192.111mil|Location1.Y=1762.197mil|Location2.Y=1767.554mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\AirTone\PCB\WPU161C_PCB\AirTone-MLL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4186.186mil|Location2.X=4192.111mil|Location1.Y=1762.197mil|Location2.Y=1767.554mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.004mm &lt; 0.01mm) Between Via (19.675mm,23.3mm) from Top Layer to Bottom Layer And Via (20.175mm,23.8mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.004mm] / [Bottom Solder] Mask Sliver [0.004mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDHM0WJFEGB0EXG0O2ZPFIDJXSSHOOOF2S42CUA4MLDZ2DCLNAF0NB"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Short-Circuit Constraint (Allowed=No) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\AirTone\PCB\WPU161C_PCB\AirTone-MLL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3488.363mil|Location2.X=3513.606mil|Location1.Y=2480.509mil|Location2.Y=2505.752mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\AirTone\PCB\WPU161C_PCB\AirTone-MLL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3488.363mil|Location2.X=3513.606mil|Location1.Y=2480.509mil|Location2.Y=2505.752mil|Absolute=True">Short-Circuit Constraint: Between Area Fill (2.238mm,41.801mm) (2.738mm,50.274mm) on Top Layer And Pad AN-1(2.5mm,42mm) on Top Layer Location : [X = 88.925mm][Y = 63.326mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\AirTone\PCB\WPU161C_PCB\AirTone-MLL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3486.09mil|Location2.X=3515.306mil|Location1.Y=2479.549mil|Location2.Y=2508.765mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\AirTone\PCB\WPU161C_PCB\AirTone-MLL.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3486.09mil|Location2.X=3515.306mil|Location1.Y=2479.549mil|Location2.Y=2508.765mil|Absolute=True">Short-Circuit Constraint: Between Area Fill (2.238mm,41.801mm) (2.738mm,50.274mm) on Top Layer And Track (2.5mm,39.95mm)(2.5mm,42mm) on Top Layer Location : [X = 88.918mm][Y = 63.352mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>

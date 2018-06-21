@@ -1,0 +1,8 @@
+Added Pin To Net: NetName=NetBQ24090_8 Pin=BQ24090-8
+Added Pin To Net: NetName=NetBQ24090_8 Pin=CHG-2
+Added Net: Name=NetBQ24090_8
+Added Pin To Net: NetName=NetBQ24090_9 Pin=BQ24090-9
+Added Pin To Net: NetName=NetBQ24090_9 Pin=Therm-1
+Added Net: Name=NetBQ24090_9
+Added Member To Class: ClassName=Audio Member=Component C1 Capacity SMD
+Added Member To Class: ClassName=Audio Member=Component R1 Resistor SMD

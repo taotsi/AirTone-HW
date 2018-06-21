@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=SYSTEM LOAD Pin=SW-1
+Removed Pin From Net: NetName=SYSTEM LOAD Pin=SW-1
+Added Pin To Net: NetName=SYSTEM LOAD Pin=SW-3
+Added Pin To Net: NetName=SYSTEM LOAD Pin=SW-3

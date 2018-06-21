@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=GND Pin=CC Debugger-1
+Removed Pin From Net: NetName=+3.3V Pin=CC Debugger-2
+Removed Pin From Net: NetName=8530_SCLK Pin=CC Debugger-3
+Removed Pin From Net: NetName=8530_CSN Pin=CC Debugger-4
+Removed Pin From Net: NetName=8530_RSTN Pin=CC Debugger-5
+Removed Pin From Net: NetName=8530_MOSI Pin=CC Debugger-6
+Removed Pin From Net: NetName=8530_MISO Pin=CC Debugger-7
+Removed Member From Class: ClassName=RF Member=CC Debugger
+Added Component: Designator=CC Debugger Jack(Header 7x1)
+Added Pin To Net: NetName=GND Pin=CC Debugger Jack-1
+Added Pin To Net: NetName=+3.3V Pin=CC Debugger Jack-2
+Added Pin To Net: NetName=8530_SCLK Pin=CC Debugger Jack-3
+Added Pin To Net: NetName=8530_CSN Pin=CC Debugger Jack-4
+Added Pin To Net: NetName=8530_RSTN Pin=CC Debugger Jack-5
+Added Pin To Net: NetName=8530_MOSI Pin=CC Debugger Jack-6
+Added Pin To Net: NetName=8530_MISO Pin=CC Debugger Jack-7
+Added Member To Class: ClassName=RF Member=Component CC Debugger Jack

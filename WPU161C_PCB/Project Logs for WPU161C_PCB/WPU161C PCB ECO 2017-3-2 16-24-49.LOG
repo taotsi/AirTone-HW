@@ -1,0 +1,10 @@
+Change Component Designator: OldDesignator=D? NewDesignator=D1
+Added Component: Designator=R23(SMD 0603)
+Added Component: Designator=R24(SMD 0603)
+Added Pin To Net: NetName=SYSTEM LOAD Pin=R23-2
+Added Pin To Net: NetName=GND Pin=R24-1
+Added Pin To Net: NetName=NetR23_1 Pin=R23-1
+Added Pin To Net: NetName=NetR23_1 Pin=R24-2
+Added Net: Name=NetR23_1
+Added Member To Class: ClassName=MCU Member=Component R23 RES SMD
+Added Member To Class: ClassName=MCU Member=Component R24 RES SMD

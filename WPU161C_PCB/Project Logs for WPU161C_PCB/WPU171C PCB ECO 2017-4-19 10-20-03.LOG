@@ -1,0 +1,13 @@
+Added Component: Designator=C36(SMD 0402)
+Added Component: Designator=C37(SMD 0402)
+Added Component: Designator=C38(SMD 0402)
+Added Pin To Net: NetName=GND Pin=C36-1
+Added Pin To Net: NetName=IOVDD Pin=C36-2
+Added Pin To Net: NetName=GND Pin=C37-1
+Added Pin To Net: NetName=IOVDD Pin=C37-2
+Added Pin To Net: NetName=GND Pin=C38-1
+Added Pin To Net: NetName=IOVDD Pin=C38-2
+Added Member To Class: ClassName=RF Member=Component C36 Capacity SMD
+Added Member To Class: ClassName=RF Member=Component C37 Capacity SMD
+Added Member To Class: ClassName=RF Member=Component C38 Capacity SMD
+Added Member To Class: ClassName=RF Member=Component L3 Inductor SMD

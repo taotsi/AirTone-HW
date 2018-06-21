@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=8530_RSTN Pin=STM8L152C6T-44
+Removed Pin From Net: NetName=NetCC8530_7 Pin=STM8L152C6T-45
+Added Pin To Net: NetName=NetCC8530_7 Pin=STM8L152C6T-26
+Added Pin To Net: NetName=8530_RSTN Pin=STM8L152C6T-27

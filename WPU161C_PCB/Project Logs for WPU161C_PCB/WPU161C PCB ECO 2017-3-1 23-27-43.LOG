@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=SYSTEM LOAD Pin=STM8L152C-7
+Change Component Designator: OldDesignator=STM8L152C NewDesignator=152C
+Added Component: Designator=D1(DO-41)
+Added Pin To Net: NetName=SYSTEM LOAD Pin=D1-1
+Added Pin To Net: NetName=Net152C_7 Pin=152C-7
+Added Pin To Net: NetName=Net152C_7 Pin=D1-2
+Added Net: Name=Net152C_7
+Added Member To Class: ClassName=MCU Member=Component D1 Diode 1N4001

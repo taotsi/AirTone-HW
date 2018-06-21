@@ -1,0 +1,14 @@
+Added Component: Designator=ADP223(ADP223)
+Added Pin To Net: NetName=SYSTEM LOAD Pin=ADP223-1
+Added Pin To Net: NetName=SYSTEM LOAD Pin=ADP223-2
+Added Pin To Net: NetName=GND Pin=ADP223-3
+Added Pin To Net: NetName=GND Pin=ADP223-3
+Added Pin To Net: NetName=NetADP223_4 Pin=ADP223-4
+Added Pin To Net: NetName=+3.3V Pin=ADP223-5
+Added Pin To Net: NetName=LOAD Pin=ADP223-6
+Added Pin To Net: NetName=+1.8V Pin=ADP223-7
+Added Pin To Net: NetName=NetADP223_8 Pin=ADP223-8
+Added Member To Class: ClassName=MCU Member=Component ADP223 8-Pin LFCSP
+Added Room: Name=Audio
+Added Room: Name=MCU
+Added Room: Name=RF

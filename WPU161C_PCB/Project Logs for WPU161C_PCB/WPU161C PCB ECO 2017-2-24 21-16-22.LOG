@@ -1,0 +1,8 @@
+Added Component: Designator=Thermistor NTC(Header 2x1)
+Added Component: Designator=USB Jack Mirco-B(Header 5x1)
+Added Pin To Net: NetName=SYSTEM LOAD Pin=Thermistor NTC-1
+Added Pin To Net: NetName=GND Pin=Thermistor NTC-2
+Added Pin To Net: NetName=USB +3.3V Pin=USB Jack Mirco-B-1
+Added Pin To Net: NetName=GND Pin=USB Jack Mirco-B-5
+Added Member To Class: ClassName=MCU Member=Component Thermistor NTC
+Added Member To Class: ClassName=MCU Member=Component USB Jack Mirco-B USB Jack Micro-B

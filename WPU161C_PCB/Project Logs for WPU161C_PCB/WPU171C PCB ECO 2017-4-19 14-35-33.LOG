@@ -1,0 +1,10 @@
+Added Component: Designator=SW(Switch 1P2T)
+Added Component: Designator=USB(USB Micro-B)
+Added Pin To Net: NetName=SYSTEM LOAD Pin=SW-1
+Added Pin To Net: NetName=SYSTEM LOAD Pin=SW-1
+Added Pin To Net: NetName=NetBattery_1 Pin=SW-2
+Added Pin To Net: NetName=NetBattery_1 Pin=SW-2
+Added Pin To Net: NetName=USB +5V Pin=USB-1
+Added Pin To Net: NetName=GND Pin=USB-5
+Added Member To Class: ClassName=MCU Member=Component SW Switch_1
+Added Member To Class: ClassName=MCU Member=Component USB USB Jack Mirco-B

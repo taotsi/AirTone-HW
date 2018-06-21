@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=STM8_KEY_1 Pin=STM8L152C6T-18
+Removed Pin From Net: NetName=STM8_KEY_2 Pin=STM8L152C6T-19
+Added Pin To Net: NetName=STM8_KEY_2 Pin=STM8L152C6T-18
+Added Pin To Net: NetName=STM8_KEY_1 Pin=STM8L152C6T-19

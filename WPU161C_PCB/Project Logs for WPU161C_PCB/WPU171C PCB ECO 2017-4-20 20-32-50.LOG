@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=STM8_OLED_RST Pin=STM8L152C6T-44
+Removed Pin From Net: NetName=SPI_OLED_SCN Pin=STM8L152C6T-46
+Added Pin To Net: NetName=SPI_OLED_SCN Pin=STM8L152C6T-44
+Added Pin To Net: NetName=STM8_OLED_RST Pin=STM8L152C6T-46

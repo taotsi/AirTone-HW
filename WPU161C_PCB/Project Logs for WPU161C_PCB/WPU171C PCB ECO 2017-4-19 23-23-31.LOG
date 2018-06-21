@@ -1,0 +1,37 @@
+Added Component: Designator=CC8530(CC8530)
+Added Pin To Net: NetName=GND Pin=CC8530-1
+Added Pin To Net: NetName=IOVDD Pin=CC8530-2
+Added Pin To Net: NetName=8530_CSN Pin=CC8530-3
+Added Pin To Net: NetName=8530_SCLK Pin=CC8530-4
+Added Pin To Net: NetName=8530_MOSI Pin=CC8530-5
+Added Pin To Net: NetName=8530_MISO Pin=CC8530-6
+Added Pin To Net: NetName=NetCC8530_7 Pin=CC8530-7
+Added Pin To Net: NetName=NetCC8530_8 Pin=CC8530-8
+Added Pin To Net: NetName=IOVDD Pin=CC8530-10
+Added Pin To Net: NetName=NetCC8530_11 Pin=CC8530-11
+Added Pin To Net: NetName=IOVDD Pin=CC8530-12
+Added Pin To Net: NetName=NetCC8530_13 Pin=CC8530-13
+Added Pin To Net: NetName=NetCC8530_14 Pin=CC8530-14
+Added Pin To Net: NetName=NetCC8530_15 Pin=CC8530-15
+Added Pin To Net: NetName=NetCC8530_16 Pin=CC8530-16
+Added Pin To Net: NetName=NetCC8530_17 Pin=CC8530-17
+Added Pin To Net: NetName=IOVDD Pin=CC8530-18
+Added Pin To Net: NetName=IOVDD Pin=CC8530-20
+Added Pin To Net: NetName=NetC27_2 Pin=CC8530-21
+Added Pin To Net: NetName=NetC28_2 Pin=CC8530-22
+Added Pin To Net: NetName=IOVDD Pin=CC8530-23
+Added Pin To Net: NetName=NetCC2590_4 Pin=CC8530-24
+Added Pin To Net: NetName=NetCC2590_2 Pin=CC8530-25
+Added Pin To Net: NetName=IOVDD Pin=CC8530-26
+Added Pin To Net: NetName=IOVDD Pin=CC8530-27
+Added Pin To Net: NetName=IOVDD Pin=CC8530-28
+Added Pin To Net: NetName=NetCC8530_30 Pin=CC8530-30
+Added Pin To Net: NetName=IOVDD Pin=CC8530-31
+Added Pin To Net: NetName=NetCC8530_36 Pin=CC8530-36
+Added Pin To Net: NetName=IOVDD Pin=CC8530-37
+Added Pin To Net: NetName=NetCC8530_38 Pin=CC8530-38
+Added Pin To Net: NetName=NetC23_1 Pin=CC8530-39
+Added Pin To Net: NetName=IOVDD Pin=CC8530-40
+Added Pin To Net: NetName=GND Pin=CC8530-41
+Added Pin To Net: NetName=GND Pin=CC8530-41
+Added Member To Class: ClassName=RF Member=Component CC8530

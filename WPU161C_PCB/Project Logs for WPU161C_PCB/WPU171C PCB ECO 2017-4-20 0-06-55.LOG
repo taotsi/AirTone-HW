@@ -1,0 +1,6 @@
+Added Component: Designator=SWIM(HEADER_3x1_2.54)
+Added Pin To Net: NetName=STM8_RST Pin=SWIM-1
+Added Pin To Net: NetName=GND Pin=SWIM-2
+Added Pin To Net: NetName=STM8_SWIM Pin=SWIM-3
+Change Net Name : Old Net Name=USB +5V New Net Name=NetBQ24090_1
+Added Member To Class: ClassName=MCU Member=Component SWIM Header_3x1

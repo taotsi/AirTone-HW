@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=PA2 Pin=P?-1
+Removed Pin From Net: NetName=PA3 Pin=P?-2
+Removed Pin From Net: NetName=PA4 Pin=P?-3
+Removed Pin From Net: NetName=PA5 Pin=P?-4
+Removed Pin From Net: NetName=PA6 Pin=P?-5
+Removed Pin From Net: NetName=PA7 Pin=P?-6
+Removed Member From Class: ClassName=MCU Member=P?
+Change Component Library : Designator=USART Jack Old Library=EButterflyIntegratedLibrary.IntLib New Library=Miscellaneous Connectors.IntLib
+Added Component: Designator=PA2-7(HDR1X6)
+Added Pin To Net: NetName=PA2 Pin=PA2-7-1
+Added Pin To Net: NetName=PA3 Pin=PA2-7-2
+Added Pin To Net: NetName=PA4 Pin=PA2-7-3
+Added Pin To Net: NetName=PA5 Pin=PA2-7-4
+Added Pin To Net: NetName=PA6 Pin=PA2-7-5
+Added Pin To Net: NetName=PA7 Pin=PA2-7-6
+Added Member To Class: ClassName=MCU Member=Component PA2-7 Header 6
+Added Member To Class: ClassName=MCU Member=Component USART Jack Header 3

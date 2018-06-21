@@ -1,0 +1,23 @@
+Change Component Designator: OldDesignator=152C NewDesignator=8L152C6
+Change Net Name : Old Net Name=152C_KEY_BACK New Net Name=STM8_KEY_BACK
+Change Net Name : Old Net Name=152C_KEY_DOWN New Net Name=STM8_KEY_DOWN
+Change Net Name : Old Net Name=152C_KEY_ENTER New Net Name=STM8_KEY_ENTER
+Change Net Name : Old Net Name=152C_KEY_UI New Net Name=STM8_KEY_UI
+Change Net Name : Old Net Name=152C_KEY_UP New Net Name=STM8_KEY_UP
+Change Net Name : Old Net Name=152C_KEY_VOL+ New Net Name=STM8_KEY_VOL+
+Change Net Name : Old Net Name=152C_KEY_VOL- New Net Name=STM8_KEY_VOL-
+Change Net Name : Old Net Name=152C_M25P_HOLD# New Net Name=STM8_M25P_HOLD#
+Change Net Name : Old Net Name=152C_M25P_SCN New Net Name=STM8_M25P_SCN
+Change Net Name : Old Net Name=152C_M25P_W# New Net Name=STM8_M25P_W#
+Change Net Name : Old Net Name=152C_OLED_D/C New Net Name=STM8_OLED_D/C
+Change Net Name : Old Net Name=152C_OLED_RST New Net Name=STM8_OLED_RST
+Change Net Name : Old Net Name=152C_RST New Net Name=STM8_RST
+Change Net Name : Old Net Name=152C_SWIM New Net Name=STM8_SWIM
+Change Net Name : Old Net Name=Net152C_7 New Net Name=Net8L152C6_7
+Change Net Name : Old Net Name=Net152C_13 New Net Name=Net8L152C6_13
+Change Net Name : Old Net Name=Net152C_35 New Net Name=Net8L152C6_35
+Change Net Name : Old Net Name=Net152C_36 New Net Name=Net8L152C6_36
+Change Net Name : Old Net Name=Net152C_37 New Net Name=Net8L152C6_37
+Change Net Name : Old Net Name=Net152C_38 New Net Name=Net8L152C6_38
+Change Net Name : Old Net Name=Net152C_45 New Net Name=Net8L152C6_45
+Change Net Name : Old Net Name=Net152C_46 New Net Name=Net8L152C6_46

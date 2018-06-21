@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=Net152C_46 Pin=8530-7
+Removed Pin From Net: NetName=Net152C_45 Pin=8530-8
+Added Pin To Net: NetName=Net152C_45 Pin=8530-7
+Added Pin To Net: NetName=Net152C_46 Pin=8530-8

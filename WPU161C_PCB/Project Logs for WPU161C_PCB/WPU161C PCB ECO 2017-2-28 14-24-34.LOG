@@ -1,0 +1,20 @@
+Added Component: Designator=4637(AK4637EN)
+Added Pin To Net: NetName=Net4637_1 Pin=4637-1
+Added Pin To Net: NetName=Net152C_36 Pin=4637-2
+Added Pin To Net: NetName=Net152C_38 Pin=4637-3
+Added Pin To Net: NetName=Net152C_37 Pin=4637-4
+Added Pin To Net: NetName=Net4637_5 Pin=4637-5
+Added Pin To Net: NetName=Net4637_6 Pin=4637-6
+Added Pin To Net: NetName=Net4637_7 Pin=4637-7
+Added Pin To Net: NetName=Net4637_8 Pin=4637-8
+Added Pin To Net: NetName=Net4637_9 Pin=4637-9
+Added Pin To Net: NetName=+1.8V Pin=4637-10
+Added Pin To Net: NetName=+1.8V Pin=4637-11
+Added Pin To Net: NetName=GND Pin=4637-12
+Added Pin To Net: NetName=GND Pin=4637-12
+Added Pin To Net: NetName=Net4637_14 Pin=4637-14
+Added Pin To Net: NetName=+3.3V Pin=4637-15
+Added Pin To Net: NetName=GND Pin=4637-16
+Added Pin To Net: NetName=Net4637_17 Pin=4637-17
+Added Pin To Net: NetName=Net4637_18 Pin=4637-18
+Added Member To Class: ClassName=Audio Member=Component 4637 AK4637EN

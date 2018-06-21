@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=Net4637_5 Pin=L5-1
+Removed Pin From Net: NetName=Net4637_6 Pin=R18-1
+Change Component Designator: OldDesignator=CC Debugger NewDesignator=CC Debugger Jack
+Added Pin To Net: NetName=Net4637_6 Pin=L5-1
+Added Pin To Net: NetName=Net4637_5 Pin=R18-1
+Added Member To Class: ClassName=Audio Member=Component Line Audio Jack PJ-328

@@ -1,0 +1,3 @@
+Added Component: Designator=Antenna(Antenna SMA-KE)
+Added Pin To Net: NetName=NetAntenna_1 Pin=Antenna-1
+Added Member To Class: ClassName=RF Member=Component Antenna Antenna SMA

@@ -1,0 +1,20 @@
+Added Component: Designator=M25P128(M25P128)
+Added Component: Designator=OLED Jack(Header 7x1)
+Added Pin To Net: NetName=152C_M25P_SCN Pin=M25P128-1
+Added Pin To Net: NetName=8530_MISO Pin=M25P128-2
+Added Pin To Net: NetName=152C_M25P_W# Pin=M25P128-3
+Added Pin To Net: NetName=GND Pin=M25P128-4
+Added Pin To Net: NetName=GND Pin=M25P128-4
+Added Pin To Net: NetName=8530_MOSI Pin=M25P128-5
+Added Pin To Net: NetName=8530_SCLK Pin=M25P128-6
+Added Pin To Net: NetName=152C_M25P_HOLD# Pin=M25P128-7
+Added Pin To Net: NetName=+3.3V Pin=M25P128-8
+Added Pin To Net: NetName=GND Pin=OLED Jack-1
+Added Pin To Net: NetName=+3.3V Pin=OLED Jack-2
+Added Pin To Net: NetName=8530_SCLK Pin=OLED Jack-3
+Added Pin To Net: NetName=8530_MOSI Pin=OLED Jack-4
+Added Pin To Net: NetName=152C_OLED_RST Pin=OLED Jack-5
+Added Pin To Net: NetName=152C_OLED_D/C Pin=OLED Jack-6
+Added Pin To Net: NetName=SPI_OLED_SCN Pin=OLED Jack-7
+Added Member To Class: ClassName=MCU Member=Component M25P128 VFDFPN8
+Added Member To Class: ClassName=MCU Member=Component OLED Jack

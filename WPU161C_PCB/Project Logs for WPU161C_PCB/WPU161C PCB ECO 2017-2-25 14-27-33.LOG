@@ -1,0 +1,29 @@
+Removed Pin From Net: NetName=GND Pin=CC Debugger Jack-1
+Removed Pin From Net: NetName=+3.3V Pin=CC Debugger Jack-2
+Removed Pin From Net: NetName=8530_CSN Pin=CC Debugger Jack-5
+Removed Pin From Net: NetName=8530_SCLK Pin=CC Debugger Jack-6
+Removed Pin From Net: NetName=8530_RSTN Pin=CC Debugger Jack-7
+Removed Pin From Net: NetName=8530_MOSI Pin=CC Debugger Jack-8
+Removed Pin From Net: NetName=8530_MISO Pin=CC Debugger Jack-10
+Removed Pin From Net: NetName=152C_RST Pin=SWIM Jack-1
+Removed Pin From Net: NetName=GND Pin=SWIM Jack-2
+Removed Pin From Net: NetName=152C_SWIM Pin=SWIM Jack-3
+Removed Pin From Net: NetName=USB +3.3V Pin=SWIM Jack-4
+Removed Member From Class: ClassName=RF Member=CC Debugger Jack
+Removed Member From Class: ClassName=MCU Member=SWIM Jack
+Change Component Designator: OldDesignator=USART Jack NewDesignator=USART
+Added Component: Designator=CC Debugger(HDR2X4)
+Added Component: Designator=SWIM(HDR1X4)
+Added Pin To Net: NetName=GND Pin=CC Debugger-1
+Added Pin To Net: NetName=+3.3V Pin=CC Debugger-2
+Added Pin To Net: NetName=8530_CSN Pin=CC Debugger-3
+Added Pin To Net: NetName=8530_SCLK Pin=CC Debugger-4
+Added Pin To Net: NetName=8530_RSTN Pin=CC Debugger-5
+Added Pin To Net: NetName=8530_MOSI Pin=CC Debugger-6
+Added Pin To Net: NetName=8530_MISO Pin=CC Debugger-8
+Added Pin To Net: NetName=152C_RST Pin=SWIM-1
+Added Pin To Net: NetName=GND Pin=SWIM-2
+Added Pin To Net: NetName=152C_SWIM Pin=SWIM-3
+Added Pin To Net: NetName=USB +3.3V Pin=SWIM-4
+Added Member To Class: ClassName=RF Member=Component CC Debugger Header 4X2
+Added Member To Class: ClassName=MCU Member=Component SWIM Header 4

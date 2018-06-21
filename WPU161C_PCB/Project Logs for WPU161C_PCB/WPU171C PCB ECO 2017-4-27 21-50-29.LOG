@@ -1,0 +1,19 @@
+Change Component Designator: OldDesignator=GND NewDesignator=UART
+Added Component: Designator=CC2590(CC2590)
+Added Pin To Net: NetName=NetCC2590_2 Pin=CC2590-2
+Added Pin To Net: NetName=NetCC2590_4 Pin=CC2590-4
+Added Pin To Net: NetName=NetCC2590_5 Pin=CC2590-5
+Added Pin To Net: NetName=NetCC2590_6 Pin=CC2590-6
+Added Pin To Net: NetName=NetCC2590_7 Pin=CC2590-7
+Added Pin To Net: NetName=GND Pin=CC2590-8
+Added Pin To Net: NetName=GND Pin=CC2590-9
+Added Pin To Net: NetName=AVDD_CC2590 Pin=CC2590-10
+Added Pin To Net: NetName=NetCC2590_11 Pin=CC2590-11
+Added Pin To Net: NetName=GND Pin=CC2590-12
+Added Pin To Net: NetName=AVDD_CC2590 Pin=CC2590-13
+Added Pin To Net: NetName=GND Pin=CC2590-14
+Added Pin To Net: NetName=NetCC2590_15 Pin=CC2590-15
+Added Pin To Net: NetName=AVDD_CC2590 Pin=CC2590-16
+Added Pin To Net: NetName=GND Pin=CC2590-17
+Added Pin To Net: NetName=GND Pin=CC2590-17
+Added Member To Class: ClassName=RF Member=Component CC2590

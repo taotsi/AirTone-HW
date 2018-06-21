@@ -1,0 +1,4 @@
+Added Component: Designator=AN(ANT_WIGGLE_1MM)
+Added Pin To Net: NetName=NetAN_1 Pin=AN-1
+Added Pin To Net: NetName=GND Pin=AN-2
+Added Member To Class: ClassName=RF Member=Component AN Antenna

@@ -1,0 +1,68 @@
+Protel Design System Design Rule Check
+PCB File : E:\AirTone\PCB\WPU161C_PCB\AirTone-MLL.PcbDoc
+Date     : 2017/12/5
+Time     : 14:24:23
+
+Processing Rule : Clearance Constraint (Gap=0.16mm) (All),(All)
+   Violation between Clearance Constraint: (Collision < 0.16mm) Between Area Fill (2.238mm,41.801mm) (2.738mm,50.274mm) on Top Layer And Pad AN-1(2.5mm,42mm) on Top Layer 
+   Violation between Clearance Constraint: (0.154mm < 0.16mm) Between Track (20.85mm,8.475mm)(21.55mm,9.175mm) on Bottom Layer And Pad STM8L152C6T-1(21.05mm,7.425mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.154mm < 0.16mm) Between Track (16.55mm,8.475mm)(20.85mm,8.475mm) on Bottom Layer And Pad STM8L152C6T-1(21.05mm,7.425mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.15mm < 0.16mm) Between Track (16.55mm,8.475mm)(20.85mm,8.475mm) on Bottom Layer And Pad STM8L152C6T-2(20.55mm,7.425mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.15mm < 0.16mm) Between Track (16.55mm,8.475mm)(20.85mm,8.475mm) on Bottom Layer And Pad STM8L152C6T-3(20.05mm,7.425mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.15mm < 0.16mm) Between Track (16.55mm,8.475mm)(20.85mm,8.475mm) on Bottom Layer And Pad STM8L152C6T-4(19.55mm,7.425mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.15mm < 0.16mm) Between Track (16.55mm,8.475mm)(20.85mm,8.475mm) on Bottom Layer And Pad STM8L152C6T-5(19.05mm,7.425mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.15mm < 0.16mm) Between Track (16.55mm,8.475mm)(20.85mm,8.475mm) on Bottom Layer And Pad STM8L152C6T-6(18.55mm,7.425mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.15mm < 0.16mm) Between Track (16.55mm,8.475mm)(20.85mm,8.475mm) on Bottom Layer And Pad STM8L152C6T-7(18.05mm,7.425mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.15mm < 0.16mm) Between Track (16.55mm,8.475mm)(20.85mm,8.475mm) on Bottom Layer And Pad STM8L152C6T-8(17.55mm,7.425mm) on Bottom Layer 
+   Violation between Clearance Constraint: (0.15mm < 0.16mm) Between Track (16.55mm,8.475mm)(20.85mm,8.475mm) on Bottom Layer And Pad STM8L152C6T-9(17.05mm,7.425mm) on Bottom Layer 
+   Violation between Clearance Constraint: (Collision < 0.16mm) Between Area Fill (2.238mm,41.801mm) (2.738mm,50.274mm) on Top Layer And Track (2.5mm,39.95mm)(2.5mm,42mm) on Top Layer 
+Rule Violations :12
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0mm) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.01mm) (All),(All)
+   Violation between Minimum Solder Mask Sliver Constraint: (0.004mm < 0.01mm) Between Via (20.675mm,24.3mm) from Top Layer to Bottom Layer And Via (20.175mm,23.8mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.004mm] / [Bottom Solder] Mask Sliver [0.004mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.004mm < 0.01mm) Between Via (19.675mm,24.3mm) from Top Layer to Bottom Layer And Via (20.175mm,23.8mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.004mm] / [Bottom Solder] Mask Sliver [0.004mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.004mm < 0.01mm) Between Via (20.675mm,23.3mm) from Top Layer to Bottom Layer And Via (20.175mm,23.8mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.004mm] / [Bottom Solder] Mask Sliver [0.004mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.004mm < 0.01mm) Between Via (19.675mm,23.3mm) from Top Layer to Bottom Layer And Via (20.175mm,23.8mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.004mm] / [Bottom Solder] Mask Sliver [0.004mm]
+Rule Violations :4
+
+Processing Rule : Hole To Hole Clearance (Gap=0.01mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=2.54mm) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.1mm) (Max=0.8mm) (Preferred=0.2mm) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=2mm) (InPoly),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+   Violation between Short-Circuit Constraint: Between Area Fill (2.238mm,41.801mm) (2.738mm,50.274mm) on Top Layer And Pad AN-1(2.5mm,42mm) on Top Layer Location : [X = 88.925mm][Y = 63.326mm]
+   Violation between Short-Circuit Constraint: Between Area Fill (2.238mm,41.801mm) (2.738mm,50.274mm) on Top Layer And Track (2.5mm,39.95mm)(2.5mm,42mm) on Top Layer Location : [X = 88.918mm][Y = 63.352mm]
+Rule Violations :2
+
+
+Violations Detected : 18
+Time Elapsed        : 00:00:01

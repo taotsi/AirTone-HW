@@ -1,0 +1,4 @@
+Added Component: Designator=Battery(Battery Jack small)
+Added Pin To Net: NetName=NetBattery_1 Pin=Battery-1
+Added Pin To Net: NetName=GND Pin=Battery-2
+Added Member To Class: ClassName=MCU Member=Component Battery Battery Pack

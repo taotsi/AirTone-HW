@@ -1,0 +1,13 @@
+Added Component: Designator=PA2-7(Header 6x1)
+Added Component: Designator=USART Jack(Header 3x1)
+Added Pin To Net: NetName=PA2 Pin=PA2-7-1
+Added Pin To Net: NetName=PA3 Pin=PA2-7-2
+Added Pin To Net: NetName=PA4 Pin=PA2-7-3
+Added Pin To Net: NetName=PA5 Pin=PA2-7-4
+Added Pin To Net: NetName=PA6 Pin=PA2-7-5
+Added Pin To Net: NetName=PA7 Pin=PA2-7-6
+Added Pin To Net: NetName=USART_CK Pin=USART Jack-1
+Added Pin To Net: NetName=USART_TX Pin=USART Jack-2
+Added Pin To Net: NetName=USART_RX Pin=USART Jack-3
+Added Member To Class: ClassName=MCU Member=Component PA2-7 Header 6
+Added Member To Class: ClassName=MCU Member=Component USART Jack Header 3

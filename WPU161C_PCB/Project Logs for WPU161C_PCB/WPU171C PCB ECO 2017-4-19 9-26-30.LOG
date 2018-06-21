@@ -1,0 +1,13 @@
+Added Component: Designator=BQ24090(BQ24090)
+Added Pin To Net: NetName=USB +5V Pin=BQ24090-1
+Added Pin To Net: NetName=NetBQ24090_2 Pin=BQ24090-2
+Added Pin To Net: NetName=GND Pin=BQ24090-3
+Added Pin To Net: NetName=GND Pin=BQ24090-3
+Added Pin To Net: NetName=GND Pin=BQ24090-3
+Added Pin To Net: NetName=NetBQ24090_4 Pin=BQ24090-4
+Added Pin To Net: NetName=NetBQ24090_5 Pin=BQ24090-5
+Added Pin To Net: NetName=GND Pin=BQ24090-7
+Added Pin To Net: NetName=24090_CHG Pin=BQ24090-8
+Added Pin To Net: NetName=24090_TS Pin=BQ24090-9
+Added Pin To Net: NetName=NetBattery_1 Pin=BQ24090-10
+Added Member To Class: ClassName=MCU Member=Component BQ24090

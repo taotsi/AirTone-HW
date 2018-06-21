@@ -1,0 +1,8 @@
+Added Component: Designator=Battery(Battery Jack small)
+Added Component: Designator=Therm(Header_2x1_2.00)
+Added Pin To Net: NetName=NetBattery_1 Pin=Battery-1
+Added Pin To Net: NetName=GND Pin=Battery-2
+Added Pin To Net: NetName=24090_TS Pin=Therm-1
+Added Pin To Net: NetName=GND Pin=Therm-2
+Added Member To Class: ClassName=MCU Member=Component Battery Battery Pack
+Added Member To Class: ClassName=MCU Member=Component Therm Thermistor

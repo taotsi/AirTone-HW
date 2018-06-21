@@ -1,0 +1,6 @@
+Added Component: Designator=D1(SMC)
+Added Pin To Net: NetName=Net152C_7 Pin=152C-7
+Added Pin To Net: NetName=Net152C_7 Pin=R23-1
+Added Pin To Net: NetName=Net152C_7 Pin=R24-2
+Added Net: Name=Net152C_7
+Added Member To Class: ClassName=MCU Member=Component D1 Diode

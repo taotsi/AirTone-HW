@@ -1,0 +1,8 @@
+Added Component: Designator=CHG(LED_0603)
+Added Component: Designator=PG(LED_0603)
+Added Pin To Net: NetName=NetCHG_1 Pin=CHG-1
+Added Pin To Net: NetName=24090_CHG Pin=CHG-2
+Added Pin To Net: NetName=NetPG_1 Pin=PG-1
+Added Pin To Net: NetName=NetBQ24090_5 Pin=PG-2
+Added Member To Class: ClassName=MCU Member=Component CHG LED
+Added Member To Class: ClassName=MCU Member=Component PG LED

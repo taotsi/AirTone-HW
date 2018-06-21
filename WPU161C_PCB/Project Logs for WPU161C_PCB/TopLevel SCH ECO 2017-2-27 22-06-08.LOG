@@ -1,0 +1,6 @@
+Remove Pin=PA2-7-1 From Net=PA2
+Remove Pin=PA2-7-2 From Net=PA3
+Remove Pin=PA2-7-3 From Net=PA4
+Remove Pin=PA2-7-4 From Net=PA5
+Remove Pin=PA2-7-5 From Net=PA6
+Remove Pin=PA2-7-6 From Net=PA7

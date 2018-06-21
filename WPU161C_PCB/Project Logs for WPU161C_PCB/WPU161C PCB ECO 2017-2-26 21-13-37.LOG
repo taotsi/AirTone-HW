@@ -1,0 +1,28 @@
+Removed Pin From Net: NetName=GND Pin=C1-1
+Removed Pin From Net: NetName=+3.3V Pin=C1-2
+Removed Pin From Net: NetName=GND Pin=C2-1
+Removed Pin From Net: NetName=+3.3V Pin=C2-2
+Removed Member From Class: ClassName=Audio Member=C1
+Removed Member From Class: ClassName=Audio Member=C2
+Removed Member From Class: ClassName=MCU Member=C6
+Removed Member From Class: ClassName=MCU Member=C9
+Removed Member From Class: ClassName=RF Member=C14
+Removed Member From Class: ClassName=RF Member=C17
+Added Member To Class: ClassName=MCU Member=Component Back Button
+Added Member To Class: ClassName=Audio Member=Component C8 Cap SMD
+Added Member To Class: ClassName=Audio Member=Component C9 Cap SMD
+Added Member To Class: ClassName=RF Member=Component CC Debugger Header 4X2
+Added Member To Class: ClassName=MCU Member=Component Down Button
+Added Member To Class: ClassName=MCU Member=Component Enter Button
+Added Member To Class: ClassName=MCU Member=Component Lock Button
+Added Member To Class: ClassName=MCU Member=Component OLED OLED Jack
+Added Member To Class: ClassName=MCU Member=Component PA2-7 Header 6
+Added Member To Class: ClassName=MCU Member=Component RST Button
+Added Member To Class: ClassName=MCU Member=Component SWIM Header 4
+Added Member To Class: ClassName=MCU Member=Component SW Switch_1
+Added Member To Class: ClassName=MCU Member=Component Thermistor NTC
+Added Member To Class: ClassName=MCU Member=Component UI Button
+Added Member To Class: ClassName=MCU Member=Component Up Button
+Added Member To Class: ClassName=MCU Member=Component USART Header 3
+Added Member To Class: ClassName=MCU Member=Component Vol+ Button
+Added Member To Class: ClassName=MCU Member=Component Vol- Button

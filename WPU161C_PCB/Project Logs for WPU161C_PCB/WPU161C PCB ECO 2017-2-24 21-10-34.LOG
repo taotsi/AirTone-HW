@@ -1,0 +1,12 @@
+Added Component: Designator=ADG849(ADG849)
+Added Component: Designator=Battery Pack(Battery Pack Jack - duplicate)
+Added Pin To Net: NetName=Net152C_35 Pin=ADG849-1
+Added Pin To Net: NetName=+3.3V Pin=ADG849-2
+Added Pin To Net: NetName=GND Pin=ADG849-3
+Added Pin To Net: NetName=Net4637_14 Pin=ADG849-4
+Added Pin To Net: NetName=NetADG849_5 Pin=ADG849-5
+Added Pin To Net: NetName=Net4637_1 Pin=ADG849-6
+Added Pin To Net: NetName=SYSTEM LOAD Pin=Battery Pack-1
+Added Pin To Net: NetName=GND Pin=Battery Pack-2
+Added Member To Class: ClassName=Audio Member=Component ADG849 6-Pin SC70
+Added Member To Class: ClassName=MCU Member=Component Battery Pack

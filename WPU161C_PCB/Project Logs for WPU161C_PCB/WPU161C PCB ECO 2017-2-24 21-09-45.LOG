@@ -1,0 +1,18 @@
+Added Component: Designator=BQ24090(BQ24090)
+Added Component: Designator=SWIM Jack(Header 4x1)
+Added Pin To Net: NetName=USB +3.3V Pin=BQ24090-1
+Added Pin To Net: NetName=NetBQ24090_2 Pin=BQ24090-2
+Added Pin To Net: NetName=GND Pin=BQ24090-3
+Added Pin To Net: NetName=GND Pin=BQ24090-3
+Added Pin To Net: NetName=NetBQ24090_4 Pin=BQ24090-4
+Added Pin To Net: NetName=NetBQ24090_5 Pin=BQ24090-5
+Added Pin To Net: NetName=GND Pin=BQ24090-7
+Added Pin To Net: NetName=24090_CHG Pin=BQ24090-8
+Added Pin To Net: NetName=24090_TS Pin=BQ24090-9
+Added Pin To Net: NetName=SYSTEM LOAD Pin=BQ24090-10
+Added Pin To Net: NetName=152C_RST Pin=SWIM Jack-1
+Added Pin To Net: NetName=GND Pin=SWIM Jack-2
+Added Pin To Net: NetName=152C_SWIM Pin=SWIM Jack-3
+Added Pin To Net: NetName=USB +3.3V Pin=SWIM Jack-4
+Added Member To Class: ClassName=MCU Member=Component BQ24090 10-Pin MSOP
+Added Member To Class: ClassName=MCU Member=Component SWIM Jack

@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=152C_KEY_VOL+ Pin=152C-18
+Removed Pin From Net: NetName=152C_KEY_VOL- Pin=152C-19
+Added Pin To Net: NetName=152C_KEY_VOL- Pin=152C-18
+Added Pin To Net: NetName=152C_KEY_VOL+ Pin=152C-19

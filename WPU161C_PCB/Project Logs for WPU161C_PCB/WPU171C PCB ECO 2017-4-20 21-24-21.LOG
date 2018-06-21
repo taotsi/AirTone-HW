@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=STM8_KEY_BACK Pin=STM8L152C6T-14
+Removed Pin From Net: NetName=STM8_KEY_DOWN Pin=STM8L152C6T-15
+Removed Pin From Net: NetName=STM8_KEY_ENTER Pin=STM8L152C6T-16
+Removed Pin From Net: NetName=STM8_KEY_UP Pin=STM8L152C6T-17
+Removed Pin From Net: NetName=STM8_KEY_2 Pin=STM8L152C6T-18
+Added Pin To Net: NetName=STM8_KEY_DOWN Pin=STM8L152C6T-14
+Added Pin To Net: NetName=STM8_KEY_ENTER Pin=STM8L152C6T-15
+Added Pin To Net: NetName=STM8_KEY_UP Pin=STM8L152C6T-16
+Added Pin To Net: NetName=STM8_KEY_2 Pin=STM8L152C6T-17
+Added Pin To Net: NetName=STM8_KEY_BACK Pin=STM8L152C6T-18

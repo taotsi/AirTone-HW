@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=USB +3.3V Pin=USB Jack Mirco-B-1
+Removed Pin From Net: NetName=GND Pin=USB Jack Mirco-B-5
+Removed Member From Class: ClassName=MCU Member=USB Jack Mirco-B
+Added Component: Designator=USB(USB Micro-B)
+Added Pin To Net: NetName=USB +3.3V Pin=USB-1
+Added Pin To Net: NetName=GND Pin=USB-5
+Added Member To Class: ClassName=MCU Member=Component USB USB Jack Micro-B

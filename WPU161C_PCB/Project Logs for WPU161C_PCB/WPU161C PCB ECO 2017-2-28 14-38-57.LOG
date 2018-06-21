@@ -1,0 +1,142 @@
+Added Component: Designator=2590(CC2590)
+Added Component: Designator=8530(CC8530)
+Added Component: Designator=ADP223(ADP223)
+Added Component: Designator=BQ24090(BQ24090)
+Added Component: Designator=M25P128(M25P128)
+Added Pin To Net: NetName=GND Pin=2590-8
+Added Pin To Net: NetName=GND Pin=2590-9
+Added Pin To Net: NetName=AVDD_CC2590 Pin=2590-10
+Added Pin To Net: NetName=GND Pin=2590-12
+Added Pin To Net: NetName=AVDD_CC2590 Pin=2590-13
+Added Pin To Net: NetName=GND Pin=2590-14
+Added Pin To Net: NetName=AVDD_CC2590 Pin=2590-16
+Added Pin To Net: NetName=GND Pin=2590-17
+Added Pin To Net: NetName=GND Pin=2590-17
+Added Pin To Net: NetName=GND Pin=8530-1
+Added Pin To Net: NetName=IOVDD Pin=8530-2
+Added Pin To Net: NetName=8530_CSN Pin=8530-3
+Added Pin To Net: NetName=8530_SCLK Pin=8530-4
+Added Pin To Net: NetName=8530_MOSI Pin=8530-5
+Added Pin To Net: NetName=8530_MISO Pin=8530-6
+Added Pin To Net: NetName=Net152C_45 Pin=8530-7
+Added Pin To Net: NetName=Net152C_46 Pin=8530-8
+Added Pin To Net: NetName=IOVDD Pin=8530-10
+Added Pin To Net: NetName=8530_RSTN Pin=8530-11
+Added Pin To Net: NetName=IOVDD Pin=8530-12
+Added Pin To Net: NetName=IOVDD Pin=8530-18
+Added Pin To Net: NetName=IOVDD Pin=8530-20
+Added Pin To Net: NetName=IOVDD Pin=8530-23
+Added Pin To Net: NetName=IOVDD Pin=8530-26
+Added Pin To Net: NetName=IOVDD Pin=8530-27
+Added Pin To Net: NetName=IOVDD Pin=8530-28
+Added Pin To Net: NetName=IOVDD Pin=8530-31
+Added Pin To Net: NetName=IOVDD Pin=8530-37
+Added Pin To Net: NetName=IOVDD Pin=8530-40
+Added Pin To Net: NetName=GND Pin=8530-41
+Added Pin To Net: NetName=GND Pin=8530-41
+Added Pin To Net: NetName=SYSTEM LOAD Pin=ADP223-1
+Added Pin To Net: NetName=SYSTEM LOAD Pin=ADP223-2
+Added Pin To Net: NetName=GND Pin=ADP223-3
+Added Pin To Net: NetName=GND Pin=ADP223-3
+Added Pin To Net: NetName=GND Pin=ADP223-3
+Added Pin To Net: NetName=GND Pin=ADP223-3
+Added Pin To Net: NetName=+3.3V Pin=ADP223-5
+Added Pin To Net: NetName=SYSTEM LOAD Pin=ADP223-6
+Added Pin To Net: NetName=+1.8V Pin=ADP223-7
+Added Pin To Net: NetName=USB +3.3V Pin=BQ24090-1
+Added Pin To Net: NetName=GND Pin=BQ24090-3
+Added Pin To Net: NetName=GND Pin=BQ24090-3
+Added Pin To Net: NetName=GND Pin=BQ24090-3
+Added Pin To Net: NetName=GND Pin=BQ24090-7
+Added Pin To Net: NetName=24090_CHG Pin=BQ24090-8
+Added Pin To Net: NetName=24090_TS Pin=BQ24090-9
+Added Pin To Net: NetName=NetBatr_1 Pin=BQ24090-10
+Added Pin To Net: NetName=152C_M25P_SCN Pin=M25P128-1
+Added Pin To Net: NetName=8530_MISO Pin=M25P128-2
+Added Pin To Net: NetName=152C_M25P_W# Pin=M25P128-3
+Added Pin To Net: NetName=GND Pin=M25P128-4
+Added Pin To Net: NetName=GND Pin=M25P128-4
+Added Pin To Net: NetName=GND Pin=M25P128-4
+Added Pin To Net: NetName=8530_MOSI Pin=M25P128-5
+Added Pin To Net: NetName=8530_SCLK Pin=M25P128-6
+Added Pin To Net: NetName=152C_M25P_HOLD# Pin=M25P128-7
+Added Pin To Net: NetName=+3.3V Pin=M25P128-8
+Added Pin To Net: NetName=Net2590_2 Pin=2590-2
+Added Pin To Net: NetName=Net2590_2 Pin=8530-25
+Added Pin To Net: NetName=Net2590_2 Pin=R17-2
+Added Net: Name=Net2590_2
+Added Pin To Net: NetName=Net2590_4 Pin=2590-4
+Added Pin To Net: NetName=Net2590_4 Pin=8530-24
+Added Pin To Net: NetName=Net2590_4 Pin=R17-1
+Added Net: Name=Net2590_4
+Added Pin To Net: NetName=Net2590_5 Pin=2590-5
+Added Pin To Net: NetName=Net2590_5 Pin=8530-36
+Added Pin To Net: NetName=Net2590_5 Pin=R15-2
+Added Net: Name=Net2590_5
+Added Pin To Net: NetName=Net2590_6 Pin=2590-6
+Added Pin To Net: NetName=Net2590_6 Pin=R14-2
+Added Net: Name=Net2590_6
+Added Pin To Net: NetName=Net2590_7 Pin=2590-7
+Added Pin To Net: NetName=Net2590_7 Pin=R19-2
+Added Pin To Net: NetName=Net2590_7 Pin=R20-2
+Added Net: Name=Net2590_7
+Added Pin To Net: NetName=Net2590_11 Pin=2590-11
+Added Pin To Net: NetName=Net2590_11 Pin=L6-2
+Added Net: Name=Net2590_11
+Added Pin To Net: NetName=Net2590_15 Pin=2590-15
+Added Pin To Net: NetName=Net2590_15 Pin=R16-1
+Added Net: Name=Net2590_15
+Added Pin To Net: NetName=Net8530_13 Pin=8530-13
+Added Pin To Net: NetName=Net8530_13 Pin=L2-2
+Added Net: Name=Net8530_13
+Added Pin To Net: NetName=Net8530_14 Pin=8530-14
+Added Pin To Net: NetName=Net8530_14 Pin=L3-2
+Added Net: Name=Net8530_14
+Added Pin To Net: NetName=Net8530_15 Pin=8530-15
+Added Pin To Net: NetName=Net8530_15 Pin=L4-2
+Added Net: Name=Net8530_15
+Added Pin To Net: NetName=Net8530_16 Pin=8530-16
+Added Pin To Net: NetName=Net8530_16 Pin=L5-2
+Added Net: Name=Net8530_16
+Added Pin To Net: NetName=Net8530_17 Pin=8530-17
+Added Pin To Net: NetName=Net8530_17 Pin=R18-2
+Added Net: Name=Net8530_17
+Added Pin To Net: NetName=Net8530_21 Pin=8530-21
+Added Pin To Net: NetName=Net8530_21 Pin=C32-2
+Added Pin To Net: NetName=Net8530_21 Pin=X1-1
+Added Net: Name=Net8530_21
+Added Pin To Net: NetName=Net8530_22 Pin=8530-22
+Added Pin To Net: NetName=Net8530_22 Pin=C33-2
+Added Pin To Net: NetName=Net8530_22 Pin=X1-3
+Added Net: Name=Net8530_22
+Added Pin To Net: NetName=Net8530_30 Pin=8530-30
+Added Pin To Net: NetName=Net8530_30 Pin=R21-2
+Added Net: Name=Net8530_30
+Added Pin To Net: NetName=Net8530_38 Pin=8530-38
+Added Pin To Net: NetName=Net8530_38 Pin=R14-1
+Added Net: Name=Net8530_38
+Added Pin To Net: NetName=Net8530_39 Pin=8530-39
+Added Pin To Net: NetName=Net8530_39 Pin=C25-1
+Added Net: Name=Net8530_39
+Added Pin To Net: NetName=NetADP223_4 Pin=ADP223-4
+Added Pin To Net: NetName=NetADP223_4 Pin=R8-2
+Added Pin To Net: NetName=NetADP223_4 Pin=R9-2
+Added Net: Name=NetADP223_4
+Added Pin To Net: NetName=NetADP223_8 Pin=ADP223-8
+Added Pin To Net: NetName=NetADP223_8 Pin=R6-1
+Added Pin To Net: NetName=NetADP223_8 Pin=R7-2
+Added Net: Name=NetADP223_8
+Added Pin To Net: NetName=NetBQ24090_2 Pin=BQ24090-2
+Added Pin To Net: NetName=NetBQ24090_2 Pin=R12-2
+Added Net: Name=NetBQ24090_2
+Added Pin To Net: NetName=NetBQ24090_4 Pin=BQ24090-4
+Added Pin To Net: NetName=NetBQ24090_4 Pin=R13-2
+Added Net: Name=NetBQ24090_4
+Added Pin To Net: NetName=NetBQ24090_5 Pin=BQ24090-5
+Added Pin To Net: NetName=NetBQ24090_5 Pin=PG-2
+Added Net: Name=NetBQ24090_5
+Added Member To Class: ClassName=RF Member=Component 2590 16-Pin QFN
+Added Member To Class: ClassName=RF Member=Component 8530 40-Pin QFN
+Added Member To Class: ClassName=MCU Member=Component ADP223 8-Pin LFCSP
+Added Member To Class: ClassName=MCU Member=Component BQ24090 10-Pin MSOP
+Added Member To Class: ClassName=MCU Member=Component M25P128 VFDFPN8

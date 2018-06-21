@@ -1,0 +1,4 @@
+Added Component: Designator=Therm(Pad_2x1_2.54)
+Added Pin To Net: NetName=24090_TS Pin=Therm-1
+Added Pin To Net: NetName=GND Pin=Therm-2
+Added Member To Class: ClassName=MCU Member=Component Therm Thermistor

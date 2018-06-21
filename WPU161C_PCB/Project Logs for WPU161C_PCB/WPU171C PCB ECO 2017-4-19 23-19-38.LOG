@@ -1,0 +1,6 @@
+Added Component: Designator=J?(Audio Jack PJ-328)
+Added Component: Designator=Line(Audio Jack PJ-328_Mono)
+Added Pin To Net: NetName=GND Pin=Line-1
+Added Pin To Net: NetName=NetLine_3 Pin=Line-3
+Added Member To Class: ClassName=Audio Member=Component J? Audio Jack
+Added Member To Class: ClassName=Audio Member=Component Line Audio Jack

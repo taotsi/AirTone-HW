@@ -1,0 +1,56 @@
+Added Component: Designator=CHG(LED_0603)
+Added Component: Designator=PG(LED_0603)
+Added Pin To Net: NetName=24090_CHG Pin=CHG-2
+Change Net Name : Old Net Name=NetADG1_1 New Net Name=NetADG849_1
+Change Net Name : Old Net Name=NetADG1_4 New Net Name=NetADG849_4
+Change Net Name : Old Net Name=NetADG1_5 New Net Name=NetADG849_5
+Change Net Name : Old Net Name=NetADG1_6 New Net Name=NetADG849_6
+Change Net Name : Old Net Name=NetADP1_4 New Net Name=NetADP223_4
+Change Net Name : Old Net Name=NetADP1_8 New Net Name=NetADP223_8
+Change Net Name : Old Net Name=NetAK1_2 New Net Name=NetAK4637EN_2
+Change Net Name : Old Net Name=NetAK1_3 New Net Name=NetAK4637EN_3
+Change Net Name : Old Net Name=NetAK1_4 New Net Name=NetAK4637EN_4
+Change Net Name : Old Net Name=NetAK1_5 New Net Name=NetAK4637EN_5
+Change Net Name : Old Net Name=NetAK1_6 New Net Name=NetAK4637EN_6
+Change Net Name : Old Net Name=NetAK1_7 New Net Name=NetAK4637EN_7
+Change Net Name : Old Net Name=NetAK1_8 New Net Name=NetAK4637EN_8
+Change Net Name : Old Net Name=NetAK1_9 New Net Name=NetAK4637EN_9
+Change Net Name : Old Net Name=NetAK1_17 New Net Name=NetAK4637EN_17
+Change Net Name : Old Net Name=NetAK1_18 New Net Name=NetAK4637EN_18
+Change Net Name : Old Net Name=NetAN1_1 New Net Name=NetAN_1
+Change Net Name : Old Net Name=NetBattery Pack1_1 New Net Name=NetBattery_1
+Change Net Name : Old Net Name=NetBQ1_2 New Net Name=NetBQ24090_2
+Change Net Name : Old Net Name=NetBQ1_4 New Net Name=NetBQ24090_4
+Change Net Name : Old Net Name=NetCC1_7 New Net Name=NetCC8530_7
+Change Net Name : Old Net Name=NetCC1_8 New Net Name=NetCC8530_8
+Change Net Name : Old Net Name=NetCC1_11 New Net Name=NetCC8530_11
+Change Net Name : Old Net Name=NetCC1_13 New Net Name=NetCC8530_13
+Change Net Name : Old Net Name=NetCC1_14 New Net Name=NetCC8530_14
+Change Net Name : Old Net Name=NetCC1_15 New Net Name=NetCC8530_15
+Change Net Name : Old Net Name=NetCC1_16 New Net Name=NetCC8530_16
+Change Net Name : Old Net Name=NetCC1_17 New Net Name=NetCC8530_17
+Change Net Name : Old Net Name=NetCC1_24 New Net Name=NetCC2590_3
+Change Net Name : Old Net Name=NetCC1_25 New Net Name=NetCC2590_1
+Change Net Name : Old Net Name=NetCC1_30 New Net Name=NetCC8530_30
+Change Net Name : Old Net Name=NetCC1_36 New Net Name=NetCC8530_36
+Change Net Name : Old Net Name=NetCC1_38 New Net Name=NetCC8530_38
+Change Net Name : Old Net Name=NetCC2_4 New Net Name=NetCC2590_4
+Change Net Name : Old Net Name=NetCC2_5 New Net Name=NetCC2590_5
+Change Net Name : Old Net Name=NetCC2_6 New Net Name=NetCC2590_6
+Change Net Name : Old Net Name=NetCC2_12 New Net Name=NetCC2590_12
+Change Net Name : Old Net Name=NetCC2_16 New Net Name=NetCC2590_16
+Change Net Name : Old Net Name=NetJ1_2 New Net Name=NetLine_2
+Added Pin To Net: NetName=NetBQ24090_5 Pin=BQ24090-5
+Added Pin To Net: NetName=NetBQ24090_5 Pin=PG-2
+Added Net: Name=NetBQ24090_5
+Added Pin To Net: NetName=NetCHG_1 Pin=CHG-1
+Added Pin To Net: NetName=NetCHG_1 Pin=R12-1
+Added Net: Name=NetCHG_1
+Added Pin To Net: NetName=NetPG_1 Pin=PG-1
+Added Pin To Net: NetName=NetPG_1 Pin=R13-1
+Added Net: Name=NetPG_1
+Added Member To Class: ClassName=MCU Member=Component CHG LED
+Added Member To Class: ClassName=MCU Member=Component PG LED
+Added Room: Name=Audio
+Added Room: Name=MCU
+Added Room: Name=RF

@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=NetADG849_6 Pin=AK4637EN-1
+Removed Pin From Net: NetName=NetADG849_4 Pin=AK4637EN-14
+Added Pin To Net: NetName=NetADG849_4 Pin=AK4637EN-1
+Added Pin To Net: NetName=NetADG849_6 Pin=AK4637EN-14

@@ -1,0 +1,130 @@
+Removed Pin From Net: NetName=NetCC2590_4 Pin=L2-2
+Removed Pin From Net: NetName=NetCC2590_5 Pin=R16-2
+Removed Pin From Net: NetName=NetCC2590_4 Pin=R17-2
+Removed Pin From Net: NetName=NetCC2590_6 Pin=R21-2
+Removed Pin From Net: NetName=NetCC2590_6 Pin=R22-2
+Added Component: Designator=ADP223(ADP223)
+Added Component: Designator=AK4637EN(AK4637EN)
+Added Component: Designator=BQ24090(BQ24090)
+Added Component: Designator=CC2590(CC2590)
+Added Component: Designator=CC8530(CC8530)
+Added Component: Designator=M25P128(M25P128)
+Added Pin To Net: NetName=SYSTEM LOAD Pin=ADP223-1
+Added Pin To Net: NetName=SYSTEM LOAD Pin=ADP223-2
+Added Pin To Net: NetName=GND Pin=ADP223-3
+Added Pin To Net: NetName=GND Pin=ADP223-3
+Added Pin To Net: NetName=GND Pin=ADP223-3
+Added Pin To Net: NetName=NetADP223_4 Pin=ADP223-4
+Added Pin To Net: NetName=+3.3V Pin=ADP223-5
+Added Pin To Net: NetName=SYSTEM LOAD Pin=ADP223-6
+Added Pin To Net: NetName=+1.8V Pin=ADP223-7
+Added Pin To Net: NetName=NetADP223_8 Pin=ADP223-8
+Added Pin To Net: NetName=NetADG849_6 Pin=AK4637EN-1
+Added Pin To Net: NetName=NetAK4637EN_2 Pin=AK4637EN-2
+Added Pin To Net: NetName=NetAK4637EN_3 Pin=AK4637EN-3
+Added Pin To Net: NetName=NetAK4637EN_4 Pin=AK4637EN-4
+Added Pin To Net: NetName=NetAK4637EN_5 Pin=AK4637EN-5
+Added Pin To Net: NetName=NetAK4637EN_6 Pin=AK4637EN-6
+Added Pin To Net: NetName=NetAK4637EN_7 Pin=AK4637EN-7
+Added Pin To Net: NetName=NetAK4637EN_8 Pin=AK4637EN-8
+Added Pin To Net: NetName=NetAK4637EN_9 Pin=AK4637EN-9
+Added Pin To Net: NetName=+1.8V Pin=AK4637EN-10
+Added Pin To Net: NetName=+1.8V Pin=AK4637EN-11
+Added Pin To Net: NetName=GND Pin=AK4637EN-12
+Added Pin To Net: NetName=GND Pin=AK4637EN-12
+Added Pin To Net: NetName=GND Pin=AK4637EN-12
+Added Pin To Net: NetName=NetADG849_4 Pin=AK4637EN-14
+Added Pin To Net: NetName=+3.3V Pin=AK4637EN-15
+Added Pin To Net: NetName=GND Pin=AK4637EN-16
+Added Pin To Net: NetName=NetAK4637EN_17 Pin=AK4637EN-17
+Added Pin To Net: NetName=NetAK4637EN_18 Pin=AK4637EN-18
+Added Pin To Net: NetName=USB +5V Pin=BQ24090-1
+Added Pin To Net: NetName=NetBQ24090_2 Pin=BQ24090-2
+Added Pin To Net: NetName=GND Pin=BQ24090-3
+Added Pin To Net: NetName=GND Pin=BQ24090-3
+Added Pin To Net: NetName=NetBQ24090_4 Pin=BQ24090-4
+Added Pin To Net: NetName=NetBQ24090_5 Pin=BQ24090-5
+Added Pin To Net: NetName=GND Pin=BQ24090-7
+Added Pin To Net: NetName=24090_CHG Pin=BQ24090-8
+Added Pin To Net: NetName=24090_TS Pin=BQ24090-9
+Added Pin To Net: NetName=NetBattery_1 Pin=BQ24090-10
+Added Pin To Net: NetName=NetCC2590_4 Pin=CC2590-4
+Added Pin To Net: NetName=NetCC2590_5 Pin=CC2590-5
+Added Pin To Net: NetName=NetCC2590_6 Pin=CC2590-6
+Added Pin To Net: NetName=GND Pin=CC2590-8
+Added Pin To Net: NetName=GND Pin=CC2590-9
+Added Pin To Net: NetName=AVDD_CC2590 Pin=CC2590-10
+Added Pin To Net: NetName=GND Pin=CC2590-12
+Added Pin To Net: NetName=AVDD_CC2590 Pin=CC2590-13
+Added Pin To Net: NetName=GND Pin=CC2590-14
+Added Pin To Net: NetName=AVDD_CC2590 Pin=CC2590-16
+Added Pin To Net: NetName=GND Pin=CC2590-17
+Added Pin To Net: NetName=GND Pin=CC2590-17
+Added Pin To Net: NetName=GND Pin=CC8530-1
+Added Pin To Net: NetName=IOVDD Pin=CC8530-2
+Added Pin To Net: NetName=8530_CSN Pin=CC8530-3
+Added Pin To Net: NetName=8530_SCLK Pin=CC8530-4
+Added Pin To Net: NetName=8530_MOSI Pin=CC8530-5
+Added Pin To Net: NetName=8530_MISO Pin=CC8530-6
+Added Pin To Net: NetName=NetCC8530_7 Pin=CC8530-7
+Added Pin To Net: NetName=NetCC8530_8 Pin=CC8530-8
+Added Pin To Net: NetName=IOVDD Pin=CC8530-10
+Added Pin To Net: NetName=NetCC8530_11 Pin=CC8530-11
+Added Pin To Net: NetName=IOVDD Pin=CC8530-12
+Added Pin To Net: NetName=NetCC8530_13 Pin=CC8530-13
+Added Pin To Net: NetName=NetCC8530_14 Pin=CC8530-14
+Added Pin To Net: NetName=NetCC8530_15 Pin=CC8530-15
+Added Pin To Net: NetName=NetCC8530_16 Pin=CC8530-16
+Added Pin To Net: NetName=NetCC8530_17 Pin=CC8530-17
+Added Pin To Net: NetName=IOVDD Pin=CC8530-18
+Added Pin To Net: NetName=IOVDD Pin=CC8530-20
+Added Pin To Net: NetName=NetC27_2 Pin=CC8530-21
+Added Pin To Net: NetName=NetC28_2 Pin=CC8530-22
+Added Pin To Net: NetName=IOVDD Pin=CC8530-23
+Added Pin To Net: NetName=NetCC2590_4 Pin=CC8530-24
+Added Pin To Net: NetName=IOVDD Pin=CC8530-26
+Added Pin To Net: NetName=IOVDD Pin=CC8530-27
+Added Pin To Net: NetName=IOVDD Pin=CC8530-28
+Added Pin To Net: NetName=NetCC8530_30 Pin=CC8530-30
+Added Pin To Net: NetName=IOVDD Pin=CC8530-31
+Added Pin To Net: NetName=NetCC8530_36 Pin=CC8530-36
+Added Pin To Net: NetName=IOVDD Pin=CC8530-37
+Added Pin To Net: NetName=NetCC8530_38 Pin=CC8530-38
+Added Pin To Net: NetName=NetC23_1 Pin=CC8530-39
+Added Pin To Net: NetName=IOVDD Pin=CC8530-40
+Added Pin To Net: NetName=GND Pin=CC8530-41
+Added Pin To Net: NetName=GND Pin=CC8530-41
+Added Pin To Net: NetName=NetCC2590_5 Pin=L2-2
+Added Pin To Net: NetName=STM8_M25P_SCN Pin=M25P128-1
+Added Pin To Net: NetName=8530_MISO Pin=M25P128-2
+Added Pin To Net: NetName=STM8_M25P_W# Pin=M25P128-3
+Added Pin To Net: NetName=GND Pin=M25P128-4
+Added Pin To Net: NetName=GND Pin=M25P128-4
+Added Pin To Net: NetName=GND Pin=M25P128-4
+Added Pin To Net: NetName=8530_MOSI Pin=M25P128-5
+Added Pin To Net: NetName=8530_SCLK Pin=M25P128-6
+Added Pin To Net: NetName=STM8_M25P_HOLD# Pin=M25P128-7
+Added Pin To Net: NetName=+3.3V Pin=M25P128-8
+Added Pin To Net: NetName=NetCC2590_6 Pin=R16-2
+Added Pin To Net: NetName=NetCC2590_5 Pin=R17-2
+Added Pin To Net: NetName=NetCC2590_4 Pin=R18-1
+Added Pin To Net: NetName=NetCC2590_2 Pin=CC2590-2
+Added Pin To Net: NetName=NetCC2590_2 Pin=CC8530-25
+Added Pin To Net: NetName=NetCC2590_2 Pin=R18-2
+Added Net: Name=NetCC2590_2
+Added Pin To Net: NetName=NetCC2590_7 Pin=CC2590-7
+Added Pin To Net: NetName=NetCC2590_7 Pin=R21-2
+Added Pin To Net: NetName=NetCC2590_7 Pin=R22-2
+Added Net: Name=NetCC2590_7
+Added Pin To Net: NetName=NetCC2590_11 Pin=CC2590-11
+Added Pin To Net: NetName=NetCC2590_11 Pin=L11-2
+Added Net: Name=NetCC2590_11
+Added Pin To Net: NetName=NetCC2590_15 Pin=CC2590-15
+Added Pin To Net: NetName=NetCC2590_15 Pin=R19-1
+Added Net: Name=NetCC2590_15
+Added Member To Class: ClassName=MCU Member=Component ADP223
+Added Member To Class: ClassName=Audio Member=Component AK4637EN
+Added Member To Class: ClassName=MCU Member=Component BQ24090
+Added Member To Class: ClassName=RF Member=Component CC2590
+Added Member To Class: ClassName=RF Member=Component CC8530
+Added Member To Class: ClassName=MCU Member=Component M25P128

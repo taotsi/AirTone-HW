@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=8530_RSTN Pin=8530-11
+Removed Pin From Net: NetName=Net2590_5 Pin=8530-36
+Removed Pin From Net: NetName=GND Pin=Line-4
+Removed Pin From Net: NetName=GND Pin=Line-5
+Added Component: Designator=L10(SMD 0603)
+Added Component: Designator=L12(SMD 0603)
+Added Pin To Net: NetName=8530_RSTN Pin=L10-1
+Added Pin To Net: NetName=Net2590_5 Pin=L12-2
+Added Pin To Net: NetName=Net8530_11 Pin=8530-11
+Added Pin To Net: NetName=Net8530_11 Pin=L10-2
+Added Net: Name=Net8530_11
+Added Pin To Net: NetName=Net8530_36 Pin=8530-36
+Added Pin To Net: NetName=Net8530_36 Pin=L12-1
+Added Net: Name=Net8530_36
+Added Member To Class: ClassName=RF Member=Component L10 IND SMD
+Added Member To Class: ClassName=RF Member=Component L12 IND SMD

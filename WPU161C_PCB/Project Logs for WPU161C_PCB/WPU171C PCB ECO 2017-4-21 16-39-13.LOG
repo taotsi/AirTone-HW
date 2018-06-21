@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=GND Pin=UART-1
+Removed Pin From Net: NetName=USART_CK Pin=UART-2
+Removed Pin From Net: NetName=USART_TX Pin=UART-3
+Removed Pin From Net: NetName=USART_RX Pin=UART-4
+Added Pin To Net: NetName=USART_CK Pin=UART-1
+Added Pin To Net: NetName=USART_TX Pin=UART-2
+Added Pin To Net: NetName=USART_RX Pin=UART-3
+Added Pin To Net: NetName=GND Pin=UART-4

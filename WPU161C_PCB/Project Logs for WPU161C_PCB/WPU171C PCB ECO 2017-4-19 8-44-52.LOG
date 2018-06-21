@@ -1,0 +1,8 @@
+Added Component: Designator=ADG849(ADG849)
+Added Pin To Net: NetName=NetADG849_1 Pin=ADG849-1
+Added Pin To Net: NetName=+3.3V Pin=ADG849-2
+Added Pin To Net: NetName=GND Pin=ADG849-3
+Added Pin To Net: NetName=NetADG849_4 Pin=ADG849-4
+Added Pin To Net: NetName=NetADG849_5 Pin=ADG849-5
+Added Pin To Net: NetName=NetADG849_6 Pin=ADG849-6
+Added Member To Class: ClassName=Audio Member=Component ADG849

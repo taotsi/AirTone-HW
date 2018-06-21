@@ -1,0 +1,54 @@
+Added Component: Designator=2590(CC2590)
+Added Component: Designator=8530(CC8530)
+Added Pin To Net: NetName=Net2590_2 Pin=2590-2
+Added Pin To Net: NetName=Net2590_4 Pin=2590-4
+Added Pin To Net: NetName=Net2590_5 Pin=2590-5
+Added Pin To Net: NetName=Net2590_6 Pin=2590-6
+Added Pin To Net: NetName=Net2590_7 Pin=2590-7
+Added Pin To Net: NetName=GND Pin=2590-8
+Added Pin To Net: NetName=GND Pin=2590-9
+Added Pin To Net: NetName=Net2590_10 Pin=2590-10
+Added Pin To Net: NetName=Net2590_11 Pin=2590-11
+Added Pin To Net: NetName=GND Pin=2590-12
+Added Pin To Net: NetName=Net2590_10 Pin=2590-13
+Added Pin To Net: NetName=GND Pin=2590-14
+Added Pin To Net: NetName=Net2590_15 Pin=2590-15
+Added Pin To Net: NetName=Net2590_10 Pin=2590-16
+Added Pin To Net: NetName=GND Pin=2590-17
+Added Pin To Net: NetName=GND Pin=8530-1
+Added Pin To Net: NetName=IOVDD Pin=8530-2
+Added Pin To Net: NetName=8530_CSN Pin=8530-3
+Added Pin To Net: NetName=8530_SCLK Pin=8530-4
+Added Pin To Net: NetName=8530_MOSI Pin=8530-5
+Added Pin To Net: NetName=8530_MISO Pin=8530-6
+Added Pin To Net: NetName=Net152C_46 Pin=8530-7
+Added Pin To Net: NetName=Net152C_45 Pin=8530-8
+Added Pin To Net: NetName=IOVDD Pin=8530-10
+Added Pin To Net: NetName=8530_RSTN Pin=8530-11
+Added Pin To Net: NetName=IOVDD Pin=8530-12
+Added Pin To Net: NetName=Net8530_13 Pin=8530-13
+Added Pin To Net: NetName=Net8530_14 Pin=8530-14
+Added Pin To Net: NetName=Net8530_15 Pin=8530-15
+Added Pin To Net: NetName=Net8530_16 Pin=8530-16
+Added Pin To Net: NetName=Net8530_17 Pin=8530-17
+Added Pin To Net: NetName=IOVDD Pin=8530-18
+Added Pin To Net: NetName=IOVDD Pin=8530-20
+Added Pin To Net: NetName=Net8530_21 Pin=8530-21
+Added Pin To Net: NetName=Net8530_22 Pin=8530-22
+Added Pin To Net: NetName=IOVDD Pin=8530-23
+Added Pin To Net: NetName=Net2590_4 Pin=8530-24
+Added Pin To Net: NetName=Net2590_2 Pin=8530-25
+Added Pin To Net: NetName=IOVDD Pin=8530-26
+Added Pin To Net: NetName=IOVDD Pin=8530-27
+Added Pin To Net: NetName=IOVDD Pin=8530-28
+Added Pin To Net: NetName=Net8530_30 Pin=8530-30
+Added Pin To Net: NetName=IOVDD Pin=8530-31
+Added Pin To Net: NetName=Net2590_5 Pin=8530-36
+Added Pin To Net: NetName=IOVDD Pin=8530-37
+Added Pin To Net: NetName=Net8530_38 Pin=8530-38
+Added Pin To Net: NetName=Net8530_39 Pin=8530-39
+Added Pin To Net: NetName=VCC Pin=8530-40
+Added Pin To Net: NetName=GND Pin=8530-41
+Added Member To Class: ClassName=RF Member=Component 2590 16-Pin QFN
+Added Member To Class: ClassName=RF Member=Component 8530 40-Pin QFN
+Added Room: Name=RF
